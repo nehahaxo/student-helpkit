@@ -147,6 +147,62 @@ body {
 .delete-btn:hover {
   background: darkred;
 }
+.status {
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.status-red {
+  background-color: #ffcccc;
+  color: #b30000;
+}
+
+.status-yellow {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-green {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.start-btn {
+  background-color: #28a745; /* green */
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.start-btn:hover {
+  background-color: #218838;
+}
+
+.finish-btn {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.finish-btn:hover {
+  background-color: rgb(255, 164, 54);
+}
+
 
 .footer {
   text-align: center;
