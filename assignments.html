@@ -23,28 +23,23 @@
 
   <section class="hero">
     <h1>Assignments Tracker</h1>
-    <p>Track your pending tasks.</p>
+    <p>Add your assignments with due dates.</p>
   </section>
 
-  <section class="features">
-    <div class="card">
-      <h3>Math Assignment</h3>
-      <p>Deadline: 20 May</p>
-      <p>Status: Pending</p>
+  <section class="todo-container">
+    <h2>Add Assignment</h2>
+
+    <div class="todo-form">
+      <input type="text" id="assignmentName" placeholder="Enter assignment name">
+      <input type="date" id="dueDate">
+      <button id="addBtn">Add</button>
     </div>
 
-    <div class="card">
-      <h3>Python Lab</h3>
-      <p>Deadline: 18 May</p>
-      <p>Status: Done</p>
-    </div>
-
-    <div class="card">
-      <h3>Chemistry Notes</h3>
-      <p>Deadline: 22 May</p>
-      <p>Status: Pending</p>
-    </div>
+    <h2>Your Assignments</h2>
+    <ul id="assignmentList"></ul>
   </section>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
