@@ -202,8 +202,13 @@ body {
 .finish-btn:hover {
   background-color: rgb(255, 164, 54);
 }
-
-
+.status-overdue {
+  color: #721c24;
+  background-color: #f8d7da;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
 .footer {
   text-align: center;
   padding: 15px;
