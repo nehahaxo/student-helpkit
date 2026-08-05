@@ -35,6 +35,23 @@ body {
   letter-spacing: 0.4px;
 }
 
+/* Keep nav items horizontal and scrollable on narrow screens */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  flex-wrap: nowrap; /* prevent wrapping to multiple lines */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.nav-links li {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .nav-links a {
   color: white;
   text-decoration: none;
